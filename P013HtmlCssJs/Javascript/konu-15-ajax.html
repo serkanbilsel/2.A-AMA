@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Ajax Kullanımı</title>
+    <script src="/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    // BU Normal yöntem ile tüm sayfanın verisini göndermeye çalışır ve büyük <br>
+    performans kayıplarına yol açar
+    <h1>Jquery Ajax Kullanımı</h1>
+    <h4>Ajax ile asenkron veri transferi </h4>
+    <hr>
+
+    <form action="/P013HtmlCssJs/Javascript/konu-15-ajax.html">
+        <h3>Ürün Bilgileri</h3>
+        <input type="text" placeholder="Ürün Adı">
+        <input type="text" placeholder="Ürün Fiyatı">
+        <input type="submit" value="Kaydet">
+    </form>
+    <hr>
+    <p id="ajax" style="border: 1px dashed; min-height: 18px;">
+    </p>
+    
+    <input id="button1" type="button" value="Ajax İle İçerik Yükleme">
+    <script>
+        $("#button1").click(function()
+        {
+            $.ajax({
+                url: "/P013HtmlCssJs/Javascript/ajaxmetin.txt",
+                success: function(sonuc){
+                    $("#ajax").html(sonuc)
+                },
+                error: function(sonuc){
+                    $("#ajax").html("Hata Oluştu : " + sonuc) }
+                 
+            }) 
+        })
+    </script>
+
+</body>
+</html>

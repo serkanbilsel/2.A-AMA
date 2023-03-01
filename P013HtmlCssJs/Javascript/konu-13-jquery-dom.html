@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Dom Değiştirme</title>
+    <script src="/jquery-3.6.3.min.js"></script>
+
+    <style>
+        .baslik {
+            color: red;
+            font-size: larger;
+        }
+
+        .sekil {
+            color: crimson;
+        }
+
+        .brd {
+            border: 1px solid;
+            min-height: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Jquery Dom Değiştirme</h1>
+    <h2>Html Input değerlerini Alma</h2>
+    <form>
+        <input type="text" name="metin" id="metin" value="textbox içindeki değer">
+        <hr>
+        <textarea name="urunAciklama" id="urunAciklama" cols="20" rows="5">Ürün Açıklama</textarea>
+        <hr>
+        <input type="checkbox" name="checkbox1" id="checkbox1"> Onaylıyorum
+        <hr>
+        <select name="kategoriler" id="dropdownlist">
+            <option>C#</option>
+            <option>Javascript</option>
+            <option>Jquery</option>
+            <option>Html</option>
+            <option>Css</option>
+
+        </select>
+        <hr>
+        <input type="radio" name="cinsiyet" value="Kadın">Kadın
+        <input type="radio" name="cinsiyet" value="Erkek">Erkek
+        <hr>
+        <a href="/P013HtmlCssJs/index.html" tittle="Javascript">Javascript Giriş</a>
+    </form>
+
+    <p id="sonuclar">Sonuçlar</p>
+    <input id="button1" type="button" value="Sonuçlar">
+    <input id="button2" type="button" value="Attribute Değerleri">
+    <script>
+        //Jquery de click event kullanımı
+        $("#button1").click(function () {
+            var degerler = "";
+            degerler += "Input değeri : " + $("#metin").val();
+            degerler += "<hr/>urunAciklama Değeri : " + $("#urunAciklama").val();
+            degerler += "<hr/>checkbox1 Değeri : " + $("input#checkbox1:checkbox:checked").val();
+            degerler += "<hr/>dropdownlist Değeri : " + $("#dropdownlist").val();
+            degerler += "<hr/>cinsiyet Değeri : " + $("input[name=cinsiyet]:checked").val();
+            $("#sonuclar").html(degerler)
+        })
+
+        $("#button2").click(function () {
+            var degerler = "";
+            degerler += "Attribute href Değeri : " + $("form a").attr("href");
+            degerler += "<hr/>Attribute title Değerleri : " + $("form a").attr("title");
+            $("#sonuclar").html(degerler)
+       
+        })
+
+       
+    </script>
+    <hr>
+    <h2>Jquery ile Html Elementleri Ekleme</h2>
+    <div id="eleman" style="border: 1px solid crimson">
+        append : seçili elemanın sonuna, <br>
+        prepend : başına, <br>
+        after : sonrasına, <br>
+        before : öncesine <br>
+
+    </div>
+    <input type="button" value="Html Öğeleri Ekleme" id="button3">
+    <script>
+        $("#button3").click(function () {
+            $("#eleman").append("<h3>append ile eklendi </h3>");
+            $("#eleman").prepend("<h4>prepend ile eklendi </h4>");
+            $("#eleman").after("<h5>after ile eklendi </h5>");
+            $("#eleman").before("<h6>before ile eklendi </h6>");
+
+        })
+
+    </script>
+    <hr>
+
+    <h2>Jquery İle elementleri sayfadan kaldırma</h2>
+    <div id="silinecek">
+        SİLİNECEK
+    </div>
+    <input type="button" value="Html Öğeleri Sil" id="button4">
+    <script>
+         $("#button4").click(function () {
+          //  $("silinecek").remove() // elementi siler
+           // $("silinecek").empty() // elementin içini boşaltır
+
+            //Javascript ile
+            document.getElementById("silinecek").remove()
+         })
+    </script>
+    <hr>
+
+    <h2>Jquery ile change olayını yakalama</h2>
+    <form>
+        <p>
+            Metin Girin : <input type="text" name="degisim" id="degisim" > 
+        </p>
+        <P>
+            <H4>Konular</H4>
+            <select name="select2" id="select2" class="degisim">
+                <option value="C Sharp">C#</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Jquery">Jquery</option>
+                <option value="Boostrap">Boostrap</option>
+            </select>
+        </P>
+        <h3 id="jqchange"></h3>
+    </form>
+    <script>
+        $(".degisim").change(function(){ // class 'ı' degisim olan elementin seçili değeri değiştiğinde 
+            $("#jqchange").html($(this).val()) // id si jqchange olan elementin içerisine seçilen değeri yazdır.
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Display</title>
+</head>
+<body>
+    <h1>Css Display</h1>
+    <p>Css de display özelliği</p>
+    <div>Elementlerin display özellikleri vardır</div>
+
+    <h2>display: block; seviyesi elemetler</h2>
+
+    <div>
+        div, h1-h6, p, form, header, footer,section,ul, gibi elementlerin display özelliği block dur
+    </div>
+
+    <h3>Display Inline Elementleri</h3>
+    <span>span elementi</span>
+    <span>display inline'dır ve satırı kaplamaz</span>
+    <a href="">a elementi de</a>
+    <img src="/images/google.png" alt="">
+    <p style="display: inline;">p in display özelliği değişti</p>
+    <a href=""style="display: block;">a elementide </a>
+    
+    <h3>Display ile element gizleme</h3>
+    <div style="display: none;">bu element display none ile gizlenecek</div>
+
+    <h3>Css Visibility</h3>
+    <div style="visibility: hidden; height: 50px;">bu element display none ile gizlenecek</div>
+    visibility hidden izle gizledik
+
+    <h3>Display Flex</h3>
+    <p>Esnek tasarımlar oluşturmamızı sağlar</p>
+
+
+    <style>
+         /* Açılama satırı ekleme */
+        #flexDiv {display: flex; min-height: 200px; border: 1px solid #aa0303; 
+            flex-wrap:wrap; /* flex-wrap satırdan taşan elementleri alt satırdan devam ettirir*/
+        }
+        #flexDiv div {padding: 1rem 3rem; margin: 1rem; border: 1px solid #aa0303; background-color: bisque;}
+
+        .flexDiv {
+            flex-direction: row; /*Flex direction :  içerdeki elemanların dizilimini dikey veya yatay yapar */
+            align-content: center; /* elemanları ortalar*/
+            justify-content: end; /*öğreleri yatayda hizalar*/
+        } 
+
+        .item5{order: 6;} /*flex de order özelliği öğleri sıralar*/
+        .item6{order: 5;
+        flex-grow: 2; /* flex grow özelliği içeriği diğerlerinden daha büyük ypar*/
+        }
+    </style>
+
+    <div id="flexDiv" class="flexDiv">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+
+
+
+</body>
+</html>

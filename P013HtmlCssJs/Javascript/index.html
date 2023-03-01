@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Giriş</title>
+</head>
+<body>
+     
+    <h1>Javascript Giriş</h1>
+    <p>
+        Javascript tarayıcılarda çalışabilen bir programlama dilidir.
+        Javascript kodları <script></script> taglarının arasına yazılır.
+    </p>
+    <h2>Java script ile ekrana yazı yazdırma</h2>
+    <hr>
+
+
+    <script>
+        document.write("Bu yazı Js write metoduyla yazıldı")
+        document.writeln("<h2>Bu yazı Js writeln metoduyla yazıldı</h2>")
+        console.log("bu yazı console.log metoduyla yazıldı. bu yazı ekrana değil tarayıcının consoluna yazdırır")
+        //Javascript ile değişken tanımlama
+        var urunAdi; var urunFiyati = 18500, kdv = 18; var kategori = "Bilgisayar";
+        //TypeScript : Microsoft tarafından geliştirilen kütüphane 
+        //c#daki gibi veri tiplerini derleyip toparlamayı hedefliyor. Değişkenlerin ve tiplerinn daha kuvvetli haline getirmesini sağlıyor
+        urunAdi = "Monitör";
+        console.log("Ürün Adı : " , urunAdi)
+        console.log("Ürün Fiyatı : " , urunFiyati)
+        console.log("Ürün Kdv : " , kdv)
+        console.log("Ürün Kategori : " , kategori)
+
+        //Let değişken tanımlama
+        let isim; let soyisim; var meslek;
+        console.log("Let :", isim)
+        isim ="Alp"; soyisim = "Arslan"; meslek = "Yazılımcı"
+        console.log("Kişi Bilgileri :", isim + "  " + soyisim + "" + " - Mesleği : " + meslek)
+
+        // Javascript Sabitler
+        // Baştan tanımladığımız   bir  değerin sonradan değiştirilmemesi gerektiği durumlarda  kullanılır.
+        const kdvmik = 18;
+      
+        kdvmik = 18;
+        // kdvmik = 8; const ile tanımlanan değer sornadan değiştirilemez!
+        console.log('Sabit Değer  :>> ', kdvmik);
+    </script>
+
+
+</body>
+</html>

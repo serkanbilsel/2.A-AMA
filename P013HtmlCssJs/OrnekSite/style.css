@@ -1,0 +1,54 @@
+.container{
+    max-width: 1200px; 
+    margin: auto;
+}
+
+
+
+
+.container header div#logo
+{
+    float: left;
+    margin:auto;
+    padding-top: 30px;
+}
+
+#arama{
+    text-align: center;
+}
+
+
+#tanitim{
+    float: right;
+}
+
+header nav{
+    clear: both;
+}
+
+#menu{
+    display: flex;
+   list-style-type: none;
+    justify-content: space-evenly;
+  
+}
+a {color:black;
+text-decoration: none;
+}
+
+a:hover {color:red;}
+
+#egitimler{
+
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: space-between;
+}

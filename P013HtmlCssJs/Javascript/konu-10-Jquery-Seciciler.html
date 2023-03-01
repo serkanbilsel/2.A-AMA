@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Seçiciler</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .brd {
+            border: 1px solid;
+            min-height: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Jquery Seçiciler</h1>
+    <h2 id="baslik">Html Elementrini Id ye Göre Seçme</h2>
+
+    <p id="mesaj" class="brd"></p>
+    <script>
+        // Jquery de kodlar $ karakteriyle yazılır
+        $(document).ready(function () {
+
+            // $(document).ready fonksiyonu döküman yüklenip hazır olduğunda içerisindeki kodları çalıştırır.
+            var secilecekEleman = $("#baslik"); // sayfada id si baslik olan elementi seçer
+            $("#mesaj").text("Başlıktan gelen içerik  :" + secilecekEleman[0].innerText)
+
+
+        });
+    </script>
+    <hr>
+
+    <h2 id="etiket">Html Elementlerini Etiket Adına Göre Seçme</h2>
+    <p id="etiketmesaj" class="brd"></p>
+    <script>
+
+        var secilecekEleman = $("h2");
+        $("#etiketmesaj").text("Başlıktan gelen içerik  : " + secilecekEleman[1].innerText)
+
+    </script>
+
+
+    <h2 id="sinif" class="sinifSecici">Html Elementlerini Class a Göre Seçme</h2>
+    <p id="sinifmesaj" class="brd"></p>
+    <script>
+
+        var secilecekEleman = $(".brd");
+        $("#sinifmesaj").text("Başlıktan gelen içerik  : " + secilecekEleman[1].innerText)
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

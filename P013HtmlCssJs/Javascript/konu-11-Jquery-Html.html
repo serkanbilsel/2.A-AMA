@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery ile Html Metin İşlemleri</title>
+    <script src="/jquery-3.6.3.min.js"></script>
+    <style src="/bootstrap.min.css"></style>
+</head>
+
+<body>
+
+    <h1>Jquery ile Html Metin İşlemleri</h1>
+    <h2>Metin içeriği değiştirme</h2>
+    <p id="degistir">Merhaba</p>
+    <p id="jsileDegistir">Selam</p>
+
+    <script>
+        //$(function () ile de döküman hazır olduğunda kodları çalıştırabiliriz.) 
+        $(function () {
+
+            var secilecekEleman = $("#degistir");
+            secilecekEleman.text("Degistir elementinin içeriği jquery text metoduyla değiştirildi");
+
+
+
+        })
+        //Element ileriğini javascript ile değiştirme
+        var secilenElement = document.getElementById("jsileDegistir")
+        secilenElement.textContent = "Element içeriğini javascript ile değiştirme "
+
+    </script>
+
+    <hr>
+    <h2>Metin İçeriğini Alma</h2>
+    <p id="jqileal">Merhaba Jquery</p>
+    <p id="jsileal">Merhaba Javascript</p>
+    <h3 id="jqmetin"></h3>
+    <h3 id="jsmetin"></h3>
+    <script>
+        //Metin içeriğini Jquery ile alma
+        var yazi = $("#jqileal").text();
+        $("#jqmetin").text(yazi);
+        // Java Script ile alama
+        var metin = document.getElementById("jsileal").textContent;
+        document.getElementById("jsmetin").textContent = metin;
+    </script>
+
+    <hr>
+    <h2>Elementlere içerikleri Html olarak Ayarlama</h2>
+    <div id="htmlicerik"></div>
+    <script>
+        //Jquery ile 
+        $("#htmlicerik").text(" <h2>Elementlere içerikleri Html olarak Ayarlama</h2>")
+        //html elementi kullanmazsak html etiketlerini "METİN" ifadesi olarak algılar
+
+        $("#htmlicerik").html(" <h4>Elementlere içerikleri Html olarak Ayarlama</h4>")
+        // Javascript ile 
+        document.getElementById("htmlicerik").textContent += "<h4>Elementlere içerikleri Html olarak Ayarlama</h4>"
+        document.getElementById("htmlicerik").innerText += "<h4>Elementlere içerikleri Html olarak Ayarlama</h4>"
+        document.getElementById("htmlicerik").innerHTML += "<h4>Elementlere içerikleri Html olarak Ayarlama</h4>"
+        // += i, elementin içindeki içeriği koruyup sonrasında ek içerik eklemek için kullanıyoruz
+
+
+    </script>
+    <hr>
+
+    <h2>Elementlerin Html içeriğini Alma</h2>
+
+    <h3>Jquery İle</h3>
+    <div id="Jqueryileal"></div>
+    <h3>Javascript İle</h3>
+    <div id="Javascriptileal"></div>
+
+    <script>
+        //Jquery ile 
+        var icerik = $("#htmlicerik").html();
+        $("#Jqueryileal").html(icerik);
+        // Javascript ile
+        var content = document.getElementById("htmlicerik").innerHTML;
+        document.getElementById("Javascriptileal").innerHTML = content;
+
+        
+    </script>
+
+</body>
+
+</html>

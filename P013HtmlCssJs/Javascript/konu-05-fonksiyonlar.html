@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Fonksiyonlar</title>
+</head>
+<body>
+    <h1>Javascript Fonksiyonlar</h1>
+
+    <script>
+
+        //Fonksiyon Tanımlama
+        function FonksiyonAdi(parametre)
+        {
+            console.log('Fonksiyona gönderilen değer  : ', parametre)
+        }
+
+        //Fonksiyonu Çağırma
+        FonksiyonAdi("Javascript Fonksiyonu Çağırma")
+
+        // Örnek 2 void metot: geriye değer döndürmeyen metotlar
+        function ToplamaYap(sayi1, sayi2)
+        {
+            console.log('Sayıların Toplamı : ', sayi1 + sayi2)
+        }
+         ToplamaYap(10, 8)
+
+        // Örnek 3 Geriye değer döndüren metot
+        function CikarmaYap(sayi1, sayi2)
+        {
+            return sayi1 - sayi2;
+        }
+       console.log('Çıkarma Sonucu : ', CikarmaYap(36, 18))
+
+       //Örnek 4  : Sayfaların arka plan rengini ve yazı rengini değiştirme
+        //Arkaplan renk ve yazı rengi değiştirme
+        function RenkDegistir(arkaplanRengi, yaziRengi) {
+            document.bgColor = arkaplanRengi
+            document.fgColor = yaziRengi
+        }
+        RenkDegistir("red", "white");
+
+        console.log("Pencere Genişliği", window.innerWidth)
+        console.log("Pencere Yüksekliği", window.innerHeight)   
+        console.log("Pencere Genişliği(outerWidth)", window.outerWidth)
+        console.log("Pencere Yüksekliği(outerHeight", window.outerHeight)
+       
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>

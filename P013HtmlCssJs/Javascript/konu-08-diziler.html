@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Diziler</title>
+</head>
+<body>
+    <h1>Js Diziler</h1>
+
+    <script>
+        var sayilar = [3, 5, 7, 9,]
+        var t = 0;
+        for (const key in sayilar)
+        {
+            t += sayilar[key]
+        }
+        document.write("<h3>Dizideki elemanların toplamı : " + t + "</h3>")
+        var arabalar = ["Fiat", "Peugeot", "Dodge"];
+        let arac = arabalar[1]
+        document.write("<h3>Seçilen Araç : " + arac + "</h3>")
+        var meyveler = new Array("Elma", "Armut", "Erik");
+
+        for(var meyve in meyveler)
+        {document.write(meyve+ "<hr>")}
+
+        document.writeln("Listedeki ilk meyve : " + meyveler[0].bold() )
+
+
+    </script>
+
+</body>
+</html>
