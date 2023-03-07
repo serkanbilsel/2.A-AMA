@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Jquery ile örnekler - Ödev</title>
+    <script src="/jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+
+
+    <h1>Javascript - Diziler örneği</h1>
+
+    <script>
+
+        alert("Serkan Bilsel Görev - 4 Javascript - Jquery ile örnekler ");
+
+        let motorlar = ['harley', 'honda', 'rks', 'suzuki', 'hyosung'];
+
+        for (let i = 0; i < motorlar.length; i++) {
+            console.log(motorlar[i]);
+        }
+
+        motorlar.push('yamaha');
+
+        // Diziden eleman çıkarma
+        motorlar.splice(2, 1);
+
+        // Dizi elemanlarını birleştirme
+        let motorMetni = motorlar.join(', ');
+
+        console.log(motorMetni);
+
+
+    </script>
+
+    <hr>
+
+    <h1>DOM - Document Objet Model örnekler - Ödev</h1>
+
+
+    <h3>
+        <p>
+            DOM - Document Object Model örnekler - Ödev
+        </p>
+    </h3>
+
+
+    <script>
+
+        let baslik = document.querySelector('h3');
+        baslik.innerText = 'Merhaba ben Serkan Bilsel (H3 başlığı değiştirildi)'; // h3 başlığını değiştiriyorum.
+
+        let yeniP = document.createElement('p');
+        yeniP.innerText = 'İnner text özelliği';
+        document.body.appendChild(yeniP);
+
+        baslik.style.color = 'red';
+        yeniP.style.backgroundColor = 'yellow';
+    </script>
+
+    <hr>
+
+    <h1>
+        <p>
+            <input type="button" value=" Juqery ile örnekler - Ödev - Dersdeki animasyon örneği (biraz farklı)" id="j">
+
+
+        </p>
+    </h1>
+    <script>
+
+
+        $(document).ready(function () {
+
+            $("#j")
+                .css("color", "red");
+        });
+        // Sevdiğim animasyon örneğinin bi tık farklısı
+        $("#j").click(function () {
+            $("#j").animate({ height: "200px" })
+        })
+        $("#j").click(function () {
+            $("#j").animate({ height: "100px" })
+        })
+
+
+
+
+    </script>
+    <hr>
+
+    <h1>Qjuery ile fakirmatik ( yazarken eğlendiğim kodlardan )</h1>
+    <script>
+
+
+        $(document).ready(function () {
+
+            $("form").submit(function (event) {
+
+                var aylikkazanc = parseInt($("#aylikkazanc").val());
+                var aylikharcama = parseInt($("#aylikharcama").val());
+                var borcdurumu = parseInt($("#borcdurumu").val());
+
+
+                var result = (aylikkazanc - aylikharcama) * 100 - (borcdurumu);
+                var grade;
+
+                // Not hesaplama
+                if (result >= 90) {
+                    grade = "Zenginsin";
+                } else if (result >= 80) {
+                    grade = "Zengine yakınsın ama değilsin";
+                } else if (result >= 70) {
+                    grade = "Ortalama üstündesin ama hızlı fakirleşirsin";
+                } else if (result >= 60) {
+                    grade = "Ortlamasın ama hergün makarnada olmaz";
+                } else if (result >= 50) {
+                    grade = "Hızlı fakirleşiyorsun";
+                } else if (result >= 40) {
+                    grade = "FAKİRSİN !";
+                } else {
+                    grade = "ULTRA FAKİRSİNNNN";
+                }
+
+
+                $("#result").text(grade);
+                event.preventDefault();
+            });
+        });
+    </script>
+    </head>
+
+    <body>
+        <form>
+            <label for="aylikkazanc">Aylık kazancınız? : </label>
+            <input type="number" id="aylikkazanc"><br>
+            <label for="midterm">Aylık gideriniz? : </label>
+            <input type="number" id="aylikharcama"><br>
+            <label for="final">Ne kadar borcunuz var? : </label>
+            <input type="number" id="borcdurumu"><br>
+            <button type="submit">Hesapla</button>
+        </form>
+        <div>Sonuç: <span id="result"></span></div>
+
+    </body>
+
+</html>

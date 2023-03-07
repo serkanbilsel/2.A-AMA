@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODEVLER</title>
+</head>
+
+<body>
+
+
+    <h1>OPERAÖTLER</h1>
+
+    <script>
+        var AsusRaderon = "Asus Rx470";
+        let AsusFiyat = 1958;
+        const Adet = 10;
+        const Satilan = 2;
+        console.log('Toplam ' + Adet + ' adet ' + AsusRaderon + ' ekran kartı vardır ve adet fiyatı ' + AsusFiyat + ' TL dir.')
+    </script>
+
+    <h1>KOŞULLAR</h1>
+
+    <script>
+        if (Adet < 10) { console.log('Ekran kartı adetimiz yeterli stok durumundadır'); }
+        else console.log('Ekran kartı adet stoğu 10 un altındadır.', 'Lütfen stok adetini ', Adet, 'a tamamlayın!')
+    </script>
+
+    <h1>DÖNGÜLER</h1>
+
+    <script>
+        for (let i = 1; i <= Adet; i++) {
+            console.log('Sayılan ekran kartı stok adeti : ', i, 'adettir.');
+        }
+    </script>
+
+    <h1>FONSİKYONLAR</h1>
+
+    <script>
+        function Hesap() {
+            return Adet - Satilan
+        }
+        console.log('Toplam satılan :', Satilan, 'Adet. Kalan ekran kartı', Hesap(Adet, Satilan), 'adettir.',)
+
+    </script>
+
+    <h1>STRİNG METOTLARI</h1>
+
+    <script>
+        document.write("AsusRaderon = ", AsusRaderon, "<br/>")
+        document.write("AsusRaderon.length = ", AsusRaderon.length, "karakter<br/>")
+        document.write("AsusRaderon.bold = ", AsusRaderon.bold(), "<br/>")
+        document.write("AsusRaderon.italics = ", AsusRaderon.italics(), "<br/>")
+        document.write("AsusRaderon.charAt = ", AsusRaderon.charAt(7), "<br/>")
+        document.write("AsusRaderon.toLowerCase = ", AsusRaderon.toLowerCase(), "<br/>")
+        document.write("AsusRaderon.toUpperCase = ", AsusRaderon.toUpperCase(), "<br/>")
+        document.write("AsusRaderon.slice = ", AsusRaderon.slice(7), "<br/>")
+        document.write("AsusRaderon.slice = ", AsusRaderon.slice(7, 15), "<br/>")
+        document.write("AsusRaderon.substr = ", AsusRaderon.substr(7), "<br/>")
+        document.write("AsusRaderon.substr = ", AsusRaderon.substr(7, 15), "<br/>")
+        document.write("AsusRaderon.replace = ", AsusRaderon.replace(" ", "-"), "<br/>")
+        document.write("AsusRaderon.concat = ", AsusRaderon.concat(" ", "contact ile ekleme"), "<br/>")
+        document.write("AsusRaderon.split = ", AsusRaderon.split(" "), "<br/>")
+
+    </script>
+
+    <h1>OLAYLAR</h1>
+    <p> Basılan tuşu gösteren olay</p>
+    <input type="text" onkeydown="myFunction(event)">
+
+    <script>
+        function myFunction(event) {
+            alert("Tuşa basıldı: " + event.key);
+        }
+    </script>
+
+    <h1>DİZELER</h1>
+    <p>Ters çevirme metodu buldum</p>
+    <script>
+        const str = "Silicon Platinummade";
+        const reverseStr = str.split("").reverse().join("");
+        console.log(reverseStr); 
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
