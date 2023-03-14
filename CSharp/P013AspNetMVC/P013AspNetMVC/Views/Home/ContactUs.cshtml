@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "İletişim";
+}
+
+<h1>İletişim</h1>
+<form asp-action="ContactUs">
+
+<div class="row">
+    <div class="col-2">
+        @Html.Label("lbAd","Adınız")
+    </div>
+    <div class="col-4">
+        @Html.TextBox("txtAd", "", "", new {@class = "form-control"})
+    </div>
+</div>
+
+    <div class="row mt-2">
+        <div class="col-2">
+            @Html.Label("lbSoyad","Soyadınız")
+        </div>
+        <div class="col-4">
+            @Html.TextBox("txtSoyad","", "", new {@class = "form-control",required="required"})
+        </div>
+    </div>
+
+
+    <div class="row mt-2">
+        <div class="col-2">
+            @Html.Label("lblTelefon","Telefon")
+        </div>
+        <div class="col-4">
+            @Html.TextBox("txtTelefon","", "", new {@class = "form-control"})
+        </div>
+    </div>
+
+    <div class="row mt-2">
+        <div class="col-2">
+            @Html.Label("lblMesaj","Mesajınız")
+        </div>
+        <div class="col-4">
+            @Html.TextArea("txtMesaj","", 5, 5, new {@class = "form-control", required="required"})
+        </div>
+    </div>
+
+    <div class="row mt-2">
+        <div class="col">
+        <input type="submit" value="Gönder" class="btn btn-primary" />
+            </div>
+    </div>
+</form>

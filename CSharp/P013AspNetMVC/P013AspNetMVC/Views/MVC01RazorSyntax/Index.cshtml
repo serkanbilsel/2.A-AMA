@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    MVC de yorum satırları @ * ve * @ arasında yazılabilir
+*@
+@{
+    // Burası C# kodu yazma alanı. View sayfalarında @ işareti ile c# kodu yazmaya rzaor syntax ı denir
+    string adi = "Alp";
+    string soyadi = "Arslan"; // c# değişkeni tanımlayabiliriz.
+    string baslik = "MVC01 Razor Syntax";
+    string[] isimler = { "Ali", "Veli", "Alp" }; // dizi tanımlayabiliriz C# ile yapılan herşeyi yapabiliriz.
+}
+
+<h1>
+    @baslik
+</h1>
+
+<h2>
+    Adı : @adi
+</h2>
+<h3>
+    Soyadı : @soyadi
+</h3>
+
+<h4>
+    İsimler
+</h4>
+
+<h4>
+    @foreach (var ad in isimler)
+    {
+        @adi
+        <hr />
+    }
+</h4>
+
+@foreach (var ad in isimler)
+{
+
+    <h5>
+        @ad
+    </h5>
+}
+@for (int i = 0; i < 5; i++)
+    {
+        <h6>   @i </h6>
+    }
+
