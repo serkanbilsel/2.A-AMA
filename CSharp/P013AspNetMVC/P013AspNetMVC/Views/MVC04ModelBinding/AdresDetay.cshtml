@@ -1,0 +1,39 @@
+﻿
+@model Adres
+@{
+    ViewData["Title"] = "AdresDetay";
+}
+
+<h1>AdresDetay</h1>
+
+<form>
+    <table>
+        <tr>
+            <td>Şehir</td>
+            <td>
+                <input asp-for="Sehir"/>
+            </td>
+        </tr>
+        <tr>
+            <td>İlçe</td>
+            <td>
+                 <input asp-for="Ilce"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Açık Adres</td>
+            <td>
+                <input asp-for="AcikAdres"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <input type="submit" value="Gönder" />
+            </td>
+        </tr>
+    </table>
+</form>
+
