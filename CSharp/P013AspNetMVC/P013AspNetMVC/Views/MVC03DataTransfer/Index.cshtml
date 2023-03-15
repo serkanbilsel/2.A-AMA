@@ -78,7 +78,7 @@
     <div>
         Kategorisi :     @Html.DropDownList("ddlListe", kategoriler)
     </div>
-    
+
     <div>
         Durum : @Html.CheckBox("cbOnay")
     </div>
@@ -87,9 +87,28 @@
 
 </form>
 
-<h3>    @ViewBag.BirinciYontem </h3>
+<h3>    @ViewBag.Yontem1 </h3>
 @ViewBag.Mesaj
 <hr />
-@ViewBag.MesajListe
+@ViewData["MesajListe"]
 <hr />
 @TempData["Tdata"]
+
+<hr />
+
+<h3>    @ViewBag.Yontem2 </h3>
+@ViewBag.Mesaj2
+<hr />
+@ViewData["MesajListe"]
+<hr />
+@TempData["Tdata2"]
+
+
+<hr />
+
+<h3>    @ViewBag.Yontem3 </h3>
+@ViewBag.Mesaj3
+<hr />
+@ViewData["MesajListe3"]
+<hr />
+@TempData["Tdata3"]
