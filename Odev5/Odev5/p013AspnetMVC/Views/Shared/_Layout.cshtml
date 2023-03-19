@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Serkan Bilsel - Homework</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SerkanBilselGorev5.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom ">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://yt3.ggpht.com/c9s_EwY5yj5CL7UDV4939IG7DHd5aHDzTvmC24J5rKOMaO_E6LEAFiUqTozt2k2pFF-jTUEP__o=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="" width="52" height="52" class="rounded-circle me-2">
+                <strong>Serkan Bilsel</strong>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" asp-controller="Blog" asp-action="Index">Blog</a></li>
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Index">Category</a></li>
+                    <li><a class="dropdown-item" asp-controller="ContactUs" asp-action="Index">Contact Us</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://siliconmadeacademy.com/">Silicon Academy</a></li>
+                </ul>
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none ">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+
+                    <span class="fs-4 nav-link px-2 text-light " asp-controller="Home" asp-action_blank="Index">   Web Site - Homework</span>
+                </a>
+
+                <ul class="nav nav-pills ">
+                    <a class="nav-link px-2 text-light " asp-controller="Blog" asp-action="Index">Blog</a>
+                    <a class="nav-link px-2 text-light" asp-controller="Category" asp-action="Index">Category</a>
+                    <a class="nav-link px-2 text-light" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
+
+                </ul>
+        </header>
+    </div>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - Serkan Bilsel - Homework -
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
