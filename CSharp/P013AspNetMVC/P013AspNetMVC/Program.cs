@@ -1,7 +1,11 @@
+using P013AspNetMVC.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<UyeContext>(); // bu satýrý sanal veritabaný kullanabilmek için ekledik
 
 var app = builder.Build();
 

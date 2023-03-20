@@ -243,3 +243,14 @@ C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMV
 C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\obj\Debug\net7.0\P013AspNetMVC.csproj.CopyComplete
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\xunit.abstractions.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\xunit.core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\xunit.execution.dotnet.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\System.CodeDom.dll
