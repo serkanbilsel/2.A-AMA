@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\P013AspNetMVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\Images\\banner.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\Images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner2.jpg"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

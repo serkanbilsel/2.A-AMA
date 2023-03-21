@@ -1,0 +1,37 @@
+﻿@model Kullanici
+@{
+
+
+}
+
+<hr />
+<h1>
+    MVC Partial Kullanımı - Sayfanın içeriğini farklı indexlerden alıp daha temiz kod yazmayı sağlar
+</h1>
+
+<p>
+    Partial parça anlamına gelir ve sayfadaki kodlar büyüdükçe sayfayı parçalara ayırıp daha kolay yönetebilmemizi sağlar.
+</p>
+
+<partial name ="_PartialTest" />
+
+<h3>Partial 'da Model Kullanımı - Model yöntemi ile çağırma</h3>
+
+<partial name ="_PartialModelKullanimi" />
+
+<h3>Partial 'ın Asenkron Çağrılması - Asenkron Yöntemi İle Çağırma</h3>
+
+@await Html.PartialAsync("_PartialModelKullanimi")
+
+
+<hr />
+
+<partial name="_PartialTest" />
+
+<h3>Partial 'da Model Gönderme</h3>
+
+<partial name="_PartialModelKullanimi" model="Model" />
+
+<h3>Partial 'ın Asenkron Çağrılması ve Model Gönderme</h3>
+
+@await Html.PartialAsync("_PartialModelKullanimi", Model)

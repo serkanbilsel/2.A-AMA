@@ -60,16 +60,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/UyeDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cVXllRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/UyeListesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cVXllTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/UyeSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cVXllU2lsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/YeniUye.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cWWVuaVV5ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC06Section/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZTZWN0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC07Partial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdQYXJ0aWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC07Partial/_PartialModelKullanimi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdQYXJ0aWFsXF9QYXJ0aWFsTW9kZWxLdWxsYW5pbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC07Partial/_PartialTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdQYXJ0aWFsXF9QYXJ0aWFsVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC08ViewResults/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDhWaWV3UmVzdWx0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/_KategorilerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LYXRlZ29yaWxlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/_ValidationScriptsPartial.cshtml]

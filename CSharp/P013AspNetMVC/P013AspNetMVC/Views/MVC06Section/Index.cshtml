@@ -1,0 +1,42 @@
+﻿@{
+}
+<h1>
+    Section Kullanımı
+</h1>
+
+<p>
+    Mvc de view sayfalarından LKayout a veri göndermek için kullanırız.
+
+</p>
+
+<section>
+    Sayfa içinde bir bölüm
+</section>
+
+@section Scripts
+    {
+
+    @*<script>
+            alert("Section Kullanımı")
+        </script> *@
+
+
+    <script>
+        console.log("Section Kullanımı")
+    </script>
+    <script src="~/../../../../../2.aşama/csharp/p013aspnetmvc/p013aspnetmvc/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+}
+
+@section OzelIcerik{
+    <section class="alert alert-info">
+        Özel İçerik
+    </section>
+}
+
+@section OzelCss{
+    <style>
+        body {
+            background-color:black; color:white;
+        }
+    </style>
+}
