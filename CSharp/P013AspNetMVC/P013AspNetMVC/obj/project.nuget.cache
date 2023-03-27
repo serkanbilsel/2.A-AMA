@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UhsdKnfTImQ5UbEN68o76bsexoft522HMAv6CkLMVFe8FI4jFTRaCcekMwZI+uXwFk+VrwWWKmEN49vi8JarVw==",
+  "dgSpecHash": "QOAk4ESKPOtmOB/Kf3bDhtiVm4iVLmAHHAGf2DDQzafL4TNY+jyzb5rQSYKT0PvsgwD306aEEvVNrLVgPYO+7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\P013AspNetMVC.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\7.0.5\\microsoft.visualstudio.web.codegeneration.templating.7.0.5.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\7.0.5\\microsoft.visualstudio.web.codegeneration.utils.7.0.5.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\7.0.5\\microsoft.visualstudio.web.codegenerators.mvc.7.0.5.nupkg.sha512",
+    "C:\\Users\\serka\\.nuget\\packages\\microsoft.web.services3\\3.0.0\\microsoft.web.services3.3.0.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
@@ -169,5 +170,16 @@
     "C:\\Users\\serka\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Services3 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Services3",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

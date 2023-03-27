@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "CookieOku";
+}
+
+<h1>Cookie Oku</h1>
+
+<p>
+    Cookie yi view da okurken @Context.Request.Cookies ile okuyoruz. Cookie ye verdiğimiz isimle taşıdığı veriyi çağırıyoruz.
+</p>
+
+<a asp-action="Index">
+
+    Cookie Oluştur
+</a>
+
+<hr />
+<a asp-action="CookieSil">
+
+    Cookie Sil
+</a>
+<hr />
+
+<div>
+    Cooki deki kullanıcı adı : 
+    <b>
+        @Context.Request.Cookies["kullaniciAdi"]
+    </b>
+</div>
+
+<div>
+    Cooki deki user guid :
+    <b>
+        @Context.Request.Cookies["userguid"]
+    </b>
+</div>

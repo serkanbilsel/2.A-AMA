@@ -1375,6 +1375,15 @@
           }
         }
       },
+      "Microsoft.Web.Services3/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Services3.dll": {}
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5442,6 +5451,18 @@
         "lib/net7.0/minimalApiChanges.json",
         "microsoft.visualstudio.web.codegenerators.mvc.7.0.5.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
+      ]
+    },
+    "Microsoft.Web.Services3/3.0.0": {
+      "sha512": "f7TxDOPxdtxqgKma7PTUlpjeBVur9HFFvBR9UEhMU6qQiOOCG2RezmSdiMKuUlCpFB95AXoWB074ZpgCNbUupg==",
+      "type": "package",
+      "path": "microsoft.web.services3/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Web.Services3.dll",
+        "microsoft.web.services3.3.0.0.nupkg.sha512",
+        "microsoft.web.services3.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -9842,9 +9863,11 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.5",
+      "Microsoft.Web.Services3 >= 3.0.0",
       "xunit.extensibility.core >= 2.4.2",
       "xunit.extensibility.execution >= 2.4.2"
     ]
@@ -9893,6 +9916,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -9906,6 +9933,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.5, )"
+          },
+          "Microsoft.Web.Services3": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "xunit.extensibility.core": {
             "target": "Package",
@@ -9938,5 +9969,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Services3 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Services3",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

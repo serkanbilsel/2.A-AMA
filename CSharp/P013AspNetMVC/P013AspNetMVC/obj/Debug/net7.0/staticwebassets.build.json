@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S2Yh53Sl6ygfeWs1+HTEazIlG/kO58+jzf1UQvNugS4=",
+  "Hash": "V/DQhh0L0BZQUzomJ9o9xex9pPlMdzv+9Vv4EaCQL00=",
   "Source": "P013AspNetMVC",
   "BasePath": "_content/P013AspNetMVC",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\Images\\client-img.png",
+      "SourceId": "P013AspNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\",
+      "BasePath": "_content/P013AspNetMVC",
+      "RelativePath": "Images/client-img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\client-img.png"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\js\\site.js",

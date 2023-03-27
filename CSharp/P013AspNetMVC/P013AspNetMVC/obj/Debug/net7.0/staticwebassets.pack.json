@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Images\\banner2.jpg"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\Images\\client-img.png",
+      "PackagePath": "staticwebassets\\Images\\client-img.png"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013AspNetMVC\\P013AspNetMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -8,15 +8,16 @@
 
 }
 
-<ul class="list-group">
+<ul class="List-group">
 
     @foreach (var item in kategoriler)
     {
-        <li>
-            <a href="">
+        <li class="List-group-item">
+            <a href="/Home?kategori=@item">
                 @item
             </a>
         </li>
     }
 
 </ul>
+

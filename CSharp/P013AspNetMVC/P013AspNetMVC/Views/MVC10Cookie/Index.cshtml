@@ -1,0 +1,33 @@
+﻿
+@{
+}
+
+<h1> 
+    MVC de Cooki ( çerez ) Kullanımı
+</h1>
+
+
+<p>
+    Çerezler kullanıcının cihanzında tutulan küçük verilerdir.
+    <br />
+    Güvenlik gerektirren kullanıcı adı , şifre gibi verileri burada tutmak sakıncalıdır.
+    <br />
+    Kullanıcıyı tanımlamak ve sonraki girişlerinde tanıyabilmek için kullanılır.
+</p>
+
+<h2>
+    Cookie Oluştur
+</h2>
+
+<form asp-action = "CookieOlustur">
+    <input type="text" name="kullaniciAdi" placeholder="Kullanıcı Adı" />
+    <input type="password" name="sifre" placeholder="Şifre" />
+    <input type="submit" value="Giriş" />
+</form>
+
+<a asp-action="CookieOku">
+    Cookie Oku
+</a>
+
+@Html.Raw(TempData["Mesaj"])
+

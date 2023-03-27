@@ -1,0 +1,21 @@
+﻿
+@{
+}
+
+
+<h1>MVC DOsya Yükleme</h1>
+
+<p>
+    Dosya yüklemek için bir form elementine ihtiyaç var.
+    Form Elementine "multipart/form-data" attribute ünü eklemek zorundayız
+    Formda dosya yüklemek için type ı file olan element gereklidir
+    File elementine verilen isim önemli post metodunda bu elementin name="Image" değerine göre eşleşme sağlanıyor!
+</p>
+
+<form asp-action="Index" enctype="multipart/form-data">
+    <input type="file" name="Image" />
+    <hr />
+    <input type="submit" value="Yükle" class="btn btn-primary" />
+</form>
+
+<img src="/Images/@TempData["Resim"]" alt="" height="180"/>

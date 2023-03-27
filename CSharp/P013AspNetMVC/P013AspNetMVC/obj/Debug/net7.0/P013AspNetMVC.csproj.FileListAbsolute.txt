@@ -254,3 +254,4 @@ C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMV
 C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\bin\Debug\net7.0\Microsoft.Web.Services3.dll
