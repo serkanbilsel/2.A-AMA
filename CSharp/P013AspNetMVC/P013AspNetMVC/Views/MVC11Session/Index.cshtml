@@ -8,4 +8,28 @@
 
 <p>
     Session yapısı sunucu taraflı oturum işlemleri veya veri taşıma yöntemi olarak sayfalar arasında güvenli bir şekilde kullanabileceğimiz nesnelerdir.
+    Session cookie ile aynı mantıkta çalışıyor ama cookiler kullanıcı pc sinde tutulurken Session server da tutulur.
+    Kullanıcıyı tanımak giriş yapmadığı halde sepete birşeyler ekleyebilmek
 </p>
+
+<p>
+    DİKKAT ! Session kullanabilmek için program.cs de servis olarak eklememiz gerekiyor, cookie gibi kullanamıyoruz
+</p>
+
+
+<h2>
+    Session Oluştur
+</h2>
+
+<form asp-action="SessionOlustur">
+    <input type="text" name="kullaniciAdi" placeholder="Kullanıcı Adı" />
+    <input type="password" name="sifre" placeholder="Şifre" />
+    <input type="submit" value="Giriş" />
+</form>
+
+<a asp-action="SessionOku">
+    Session Oku
+</a>
+
+@Html.Raw(TempData["Mesaj"])
+

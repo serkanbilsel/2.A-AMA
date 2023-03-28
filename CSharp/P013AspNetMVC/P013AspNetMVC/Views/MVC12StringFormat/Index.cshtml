@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "MVC 12 String Format";
+    DateTime tarih = DateTime.Now;
+}
+
+<h1>Mvc 12 String Format</h1>
+
+<p>
+    EKranda gösterilen verileri formatlamak için kullanırıız
+</p>
+
+<h3>
+    Tarih Formatlama
+</h3>
+
+<h4>
+    Tarih : @tarih
+</h4>
+
+<h5>
+    Kısa Saat {0:t} : @String.Format("{0:t}", tarih)
+</h5>
+
+<h5>
+    Kısa Tarih {0:d} : @String.Format("{0:d}", tarih)
+</h5>
+
+<h5>
+    Yıl {0:yyyy} : @String.Format("{0:yyyy}", tarih)
+</h5>
+
+<h3>
+    SAyı Formatlama
+</h3>
+
+
+<h5>
+    {0:C} : @String.Format("{0:C}", 49,50)
+</h5>
+
+<h5>
+    {0:D3} : @String.Format("{0:D3}", 49)
+</h5>
+<h5>
+    {0:D5} : @String.Format("{0:D5}", 490)
+</h5>
+
+<h5>
+    {0:F1} : @String.Format("{0:F1}", 15,96)
+</h5>
+
+
+<h5>
+    {0:F2} : @String.Format("{0:F2}", 15,95)
+</h5>
+
+
+<h5>
+    {0:F3} : @String.Format("{0:F3}", 15,93)
+</h5>
