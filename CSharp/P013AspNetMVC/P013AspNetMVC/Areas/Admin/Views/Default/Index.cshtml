@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "Admin ana sayfa";
+}
+
+<h1>Admin ana sayfa</h1>
+
+<h3>
+    Area - Admin
+</h3>
+<p>
+    Are lar uygulşama içinde çalışan uygulama mantığıyla hareket eder ve admin paneli, uygulama içinde bir blog projesi vb yapmamıza yarar
+</p>
+
+
+<h3>
+    Area Oluşturma - Projeye Ekleme
+</h3>
+
+<p>
+    Projeye ismine sağ tıklayıp açılan menüden Add > Scaffolded item ,, diyerek ekrana gelen pencereden MVC AREA seçeneğini seçip ekle butonuna basıyoruz
+    ve açılan ekranda area mıza isim ( Admin, Blog vb) verip tamam diyerek oluşmasını bekliyoruz.
+    <br />
+    ______________
+    <br />
+    ÖNEMLİ ;
+    Area oluştuktan sonra ekrana gelen uyarı metnindeki kodu kopyalayıp program.cs e area route u olarak eklememiz gerekli!
+</p>
+
+<p>
+    Area altında çalışan tüm controller ların üstüne attribute olarak area admin kodunu eklememiz gerekiyor aksi taktirde area altındaki sayfalar açılmaz 404 not found hhatası verir!
+</p>
+
+<p>
+    Bir area oluşturduktan sonra bu area için shared klasörü, layout dosyası gibi şablon işlemlerini kendimiz eklememiz gerekiyor, böylece admin areasında ana uygulamadan farklı bir
+    tema kullanabiliriz.
+
+  
+</p>
+
+
+<hr />
+<p>
+    <h1>Chat GPT 'nın açıklaması</h1>
+    ASP.NET MVC'de bir alan (area) oluşturmak için aşağıdaki adımları izleyebilirsiniz:
+    <br />
+    ASP.NET MVC projesini açın.
+    <br />
+    Sağ tıklayın ve "Add" (Ekle) seçeneğini seçin.
+    <br />
+    "New Scaffolded Item" (Yeni Şablonlu Öğe) seçeneğini seçin.
+    <br />
+    "MVC Area" seçeneğini seçin ve "Add" (Ekle) butonuna tıklayın.
+    <br />
+    "Area name" (Alan adı) kutusuna bir ad girin ve "Add" (Ekle) butonuna tıklayın.
+    <br />
+    Yeni alanın oluşturulduğunu görmek için Solution Explorer (Çözüm Gezgini) penceresini kontrol edin.
+</p>

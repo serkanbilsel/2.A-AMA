@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+
+<html lang="en" data-bs-theme="auto">
+<head>
+
+
+
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="sign-in.css" rel="stylesheet">
+</head>
+
+
+
+    <main class="form-signin w-100 m-auto">
+       @using (Html.BeginForm("AddUser", "Home", FormMethod.Post))
+    {
+        <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+        <h1 class="h3 mb-3 fw-normal">Kayıt Ol</h1>
+
+        <div class="form-floating">
+            <input type="Text"  name="NameSurname" >
+            <label for="floatingInput">Ad Soyad</label>
+        </div>
+
+        <div class="form-floating">
+            <input type="email" class="form-control" name="Username">
+            <label for="floatingInput">Kullanıcı Adın</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" name="Password">
+            <label for="floatingPassword">Şifre</label>
+        </div>
+
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Şifre">
+            <label for="floatingPassword">Şifre Tekrar</label>
+        </div>
+
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Beni Hatırla
+            </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Kayıt Ol</button>
+        <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+
+    }
+  
+       
+
+
+</html>
