@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Ana Sayfa";
     Layout = null;
 }
 
@@ -17,7 +17,7 @@
     <meta name="generator" content="Hugo 0.111.3">
     <title>Serkan Bilsel Görev 7</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -74,62 +74,31 @@
         </symbol>
     </svg>
 
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-                id="bd-theme"
-                type="button"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
-                aria-label="Toggle theme (auto)">
-            <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-                    Light
-                    <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-                </button>
-            </li>
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-                    Dark
-                    <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-                </button>
-            </li>
-            <li>
-                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
-                    Auto
-                    <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-                </button>
-            </li>
-        </ul>
-    </div>
-
-
-
-
     <main>
 
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+
+
+
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+                    <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                        <rect width="100%" height="100%"
+                    </svg>
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Görev 7 - Asp.Net Mvc Kurumsal Site Tasarımı</h1>
                             <p>
-                                Uygulamada Products, Categories, Slider ve User Model Class ları tanımlanacak.
+                                Uygulamada Products, Categories, Slider ve User Model Class ları tanımlanacak. <br />
+                                Veritabanında Gorev7ProjeDb isminde bir veritabanı oluşturup içerisine manuel olarak model classlarındaki tablolar ve kolonları oluşturulacak
                             </p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
                         </div>
                     </div>
                 </div>
@@ -137,23 +106,29 @@
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                            <h1>Projeye; "Admin" isminde bir Area eklenip, <br /> Bu area'ya </h1>
+                            <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.3/examples/dashboard/" target="_blank">Bootstrap'ın "Dashboard"</a> <br /> adresindeki şablon uygulanacak.</p>
+                            <p></p>
+
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
                     <div class="container">
-                        <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        <div class="carousel-caption">
+                            <h1>Projenin ön yüzüne de </h1>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.3/examples/carousel/" target="_blank">Boostrap "Carousel""</a> <br /> Adresindeki şablon uygulanacak.
+                                <br />
+                                Not: Veritabanı işlemleri yapılmayacak
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+
+
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -162,6 +137,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+
         </div>
 
 
@@ -174,22 +150,50 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-                    <h2 class="fw-normal">Heading</h2>
-                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    
+                        <img class="bd-placeholder-img rounded-circle" src="https://pbs.twimg.com/profile_images/1390448160934305793/ohii8Hxq_400x400.png" width ="140" height="140" />
+                        <title>Placeholder</title>
+
+                    </>
+                    <h2 class="fw-normal">
+                        Asp .Net Core MVC ile bootstrap kod snippetlarını kullanarak kurumsal site oluşturma.
+                    </h2>
+                    <p>Yapıldı.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
+                    </svg>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-                    <h2 class="fw-normal">Heading</h2>
-                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                  
+                        
+                        <img class="bd-placeholder-img rounded-circle" src="https://www.teknologweb.com/wp-content/uploads/2017/10/asp-net-mvc-area-nedir.jpg" width="140" height="140" />
+                      
+                    </svg>
+                    <h2 class="fw-normal">Uygulamada Products, Categories, Slider ve User Model Class ları tanımlanacak</h2>
+                    <p>Yapıldı.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-                    <h2 class="fw-normal">Heading</h2>
-                    <p>And lastly this, the third column of representative placeholder content.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <img class="bd-placeholder-img rounded-circle" src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/600x/1b89f2fc96fc819c2a7e15c7e545e8a9/1/7/1769.12-sql-icon-iconbunny.jpg" width="140" height="140" />
+                    <h2 class="fw-normal">Veritabanında Gorev7ProjeDb isminde bir veritabanı oluşturup içerisine manuel olarak model classlarındaki tablolar ve kolonları oluşturulacak</h2>
+                    
+                    <p>
+                        Projeye Admin isminde bir area eklenip bu area ya bootstrap ın <a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.3/examples/dashboard/" target="_blank"> adresindeki</a>    şablon uygulanacak.
+                        <br />
+                        Projenin ön yüzüne de 
+                        <br />
+                        <a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.3/examples/carousel/" target="_blank"> adresindeki</a>adresindeki şablon .
+                        <br />
+                        Not: Veritabanı işlemleri yapılmayacak
+                        <br />
+                        Yapıldı.
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                        <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
             <!-- START THE FEATURETTES -->

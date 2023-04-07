@@ -8,7 +8,7 @@
 
 @if(Context.Session.GetInt32("IsLoggedIn") == 1) // Eğer IsLoggedIn değeri 1 se session ile oturum açılmıştır demektir Yani kullanıcıyı tanıyoruz.
 {
-    <h3>Hoş geldin : @Context.Session.GetInt32</h3>
+    <h3>Hoş geldin : @Context.Session.GetString("Kullanici")</h3>
     <h3>Guid : @Context.Session.GetString("UserGuid")</h3>
     <hr />
     <form asp-action="SessionSil">

@@ -19,13 +19,15 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 app.MapControllerRoute(    // AREA EKLEDÝKTEN SONRA SCAFFOLDÝNGREADME.TXT DEN ALDIÐIMIZ KODLARI BURAYA YAPIÞTIRDIK ÇÜNKÜ AREA NIN ÇALIÞMASI ÝÇÝN BU ROUTE U EKLEMEMÝZ GEREKÝYOR
             name: "Admin",
             pattern: "{area:exists}/{controller=DefaultController}/{action=Index}/{id?}"    //  DEFAULT OLAN KISIM "HOME" DI BÝZ ÝSMÝ DEFAULT VERDÝÐÝMÝZ ÝÇÝN DEFAULT YAPTIK
           );
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 app.Run();
