@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SerkanBilselGorev7.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\aspnet.jpg",
+      "PackagePath": "staticwebassets\\Images\\aspnet.jpg"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner.jpg",
       "PackagePath": "staticwebassets\\Images\\banner.jpg"
     },
@@ -19,6 +23,14 @@
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner4.jpg",
       "PackagePath": "staticwebassets\\Images\\banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\c.jpg",
+      "PackagePath": "staticwebassets\\Images\\c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\vs.jpg",
+      "PackagePath": "staticwebassets\\Images\\vs.jpg"
     },
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\css\\carousel.css",
