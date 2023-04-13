@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\P013WebSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013WebSite\\P013WebSite\\wwwroot\\Img\\295698669_10160115134148774_2507249480704095936_n.jpg",
+      "PackagePath": "staticwebassets\\Img\\295698669_10160115134148774_2507249480704095936_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013WebSite\\P013WebSite\\wwwroot\\Img\\BOYSTALK.png",
+      "PackagePath": "staticwebassets\\Img\\BOYSTALK.png"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013WebSite\\P013WebSite\\wwwroot\\Img\\Banner.png",
+      "PackagePath": "staticwebassets\\Img\\Banner.png"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013WebSite\\P013WebSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

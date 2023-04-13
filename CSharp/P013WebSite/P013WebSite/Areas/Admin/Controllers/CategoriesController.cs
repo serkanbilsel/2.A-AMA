@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using P013WebSite.Data;
+using P013WebSite.Entities;
 
 namespace P013WebSite.Areas.Admin.Controllers
 {
@@ -30,10 +31,12 @@ namespace P013WebSite.Areas.Admin.Controllers
         // POST: CategoriesController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Category collection)
         {
             try
             {
+                context.Categories.Add(collection); // context üzerinde categories tablosuına collectiondaki kategoriyi ekle
+                context.SaveChanges(); // yukarıdaki ekleme işlmenini veritabanına işle
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -45,16 +48,20 @@ namespace P013WebSite.Areas.Admin.Controllers
         // GET: CategoriesController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var model = context.Categories.Find(id); // Model oluşturuo context.categories.find ile parametre olarak id verip view modeli içinde model ile yakalıyoruz.
+            // context üzeirnden veritabanındaki kategorilerden idsi route dan gelenle eşleşen kaydı getirir find metodu
+            return View(model);
         }
 
         // POST: CategoriesController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Category collection)  // IFROMFILE ları category olarak değiştirdik
         {
             try
             {
+                context.Categories.Update(collection);
+                context.SaveChanges();  
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -66,16 +73,19 @@ namespace P013WebSite.Areas.Admin.Controllers
         // GET: CategoriesController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var model = context.Categories.Find(id);
+            return View(model);
         }
 
         // POST: CategoriesController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Category collection)
         {
             try
             {
+                context.Categories.Remove(collection); // ekrandan gelen kategoriyi sil
+                context.SaveChanges(); // silme işleminbi db ye işlle
                 return RedirectToAction(nameof(Index));
             }
             catch
