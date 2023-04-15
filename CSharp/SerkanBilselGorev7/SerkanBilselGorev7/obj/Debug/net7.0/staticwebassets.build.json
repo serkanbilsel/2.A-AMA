@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "886e5c9L5ttvT8kcKp90431N1w6LBnRjOypu8nlE8I4=",
+  "Hash": "Cr5OFuexr0RIiZSmjDcaMAbQHluUwMMQVdg8F9jHULI=",
   "Source": "SerkanBilselGorev7",
   "BasePath": "_content/SerkanBilselGorev7",
   "Mode": "Default",
@@ -153,6 +153,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\1.jpg",
+      "SourceId": "SerkanBilselGorev7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\",
+      "BasePath": "_content/SerkanBilselGorev7",
+      "RelativePath": "Images/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\133356db4dcb759f75bbfab5f0b88c16.jpg",
+      "SourceId": "SerkanBilselGorev7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\",
+      "BasePath": "_content/SerkanBilselGorev7",
+      "RelativePath": "Images/133356db4dcb759f75bbfab5f0b88c16.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\133356db4dcb759f75bbfab5f0b88c16.jpg"
+    },
+    {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\aspnet.jpg",
       "SourceId": "SerkanBilselGorev7",
       "SourceType": "Discovered",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\banner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\Banner.png",
+      "SourceId": "SerkanBilselGorev7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\",
+      "BasePath": "_content/SerkanBilselGorev7",
+      "RelativePath": "Images/Banner.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Banner.png"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner2.jpg",
@@ -238,6 +289,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\banner4.jpg"
     },
     {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\BOYSTALK.png",
+      "SourceId": "SerkanBilselGorev7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\",
+      "BasePath": "_content/SerkanBilselGorev7",
+      "RelativePath": "Images/BOYSTALK.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\BOYSTALK.png"
+    },
+    {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\c.jpg",
       "SourceId": "SerkanBilselGorev7",
       "SourceType": "Discovered",
@@ -253,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\Sb.jpg",
+      "SourceId": "SerkanBilselGorev7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\",
+      "BasePath": "_content/SerkanBilselGorev7",
+      "RelativePath": "Images/Sb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Sb.jpg"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\vs.jpg",

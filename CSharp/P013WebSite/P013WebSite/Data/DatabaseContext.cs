@@ -54,6 +54,6 @@ namespace P013WebSite.Data
             base.OnModelCreating(modelBuilder);
         }
         // Not ; Buradaki yapılandırmayı da yaptıktan sonra Program.cs e gidip orada databasecontext sınıfını programa tanımlamamız gerekiyor !
-
+                                                                                      
     }
 }

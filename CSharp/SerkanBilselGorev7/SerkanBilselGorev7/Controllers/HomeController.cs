@@ -17,10 +17,10 @@ namespace SerkanBilselGorev7.Controllers
         {
             var model = new List<Slider>()
          {
-           
+
              new Slider() { Name = "Görev 7 - Asp.Net Mvc Kurumsal Site Tasarımı",
-                 Description = "Asp .Net Core MVC ile bootstrap kod snippetlarını kullanarak kurumsal site oluşturma.", 
-                Image = "/Images/aspnet.jpg", 
+                 Description = "Asp .Net Core MVC ile bootstrap kod snippetlarını kullanarak kurumsal site oluşturma.",
+                Image = "/Images/aspnet.jpg",
                  Link = "google.com" },
 
                  new Slider() { Name = "Uygulamada Products, Categories, Slider ve User Model Class ları tanımlanacak",
@@ -29,16 +29,9 @@ namespace SerkanBilselGorev7.Controllers
                  },
 
                   new Slider() { Name = "Projeye Admin isminde bir area eklenip bu area ya bootstrap'ın",
-                 Description = "Asp .Net Core MVC ile bootstrap kod snippetlarını kullanarak kurumsal site oluşturma. Projenin ön yüzüne de https://getbootstrap.com/docs/5.3/examples/carousel/ adresindeki şablon uygulanacak\r\nNot: Veritabanı işlemleri yapılmayacak",
+                 Description = "Asp .Net Core MVC ile bootstrap kod snippetlarını kullanarak kurumsal site oluşturma. Projenin ön yüzüne de https://getbootstrap.com/docs/5.3/examples/carousel/ adresindeki şablon uygulanacak Not: Veritabanı işlemleri yapılmayacak",
                 Image = "/Images/vs.jpg",
                  Link = "https://getbootstrap.com/docs/5.3/examples/dashboard/" },
-
-
-
-
-
-
-
 
         };
             return View(model);

@@ -1,7 +1,11 @@
+using SerkanBilselGorev7.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DatabaseContext>();
 
 var app = builder.Build();
 
@@ -19,14 +23,17 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+
+app.MapControllerRoute(
+            name: "admin",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+          );
+
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.MapControllerRoute(    // AREA EKLEDÝKTEN SONRA SCAFFOLDÝNGREADME.TXT DEN ALDIÐIMIZ KODLARI BURAYA YAPIÞTIRDIK ÇÜNKÜ AREA NIN ÇALIÞMASI ÝÇÝN BU ROUTE U EKLEMEMÝZ GEREKÝYOR
-            name: "Admin",
-            pattern: "{area:exists}/{controller=DefaultController}/{action=Index}/{id?}"    //  DEFAULT OLAN KISIM "HOME" DI BÝZ ÝSMÝ DEFAULT VERDÝÐÝMÝZ ÝÇÝN DEFAULT YAPTIK
-          );
 
 
 

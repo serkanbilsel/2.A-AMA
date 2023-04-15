@@ -16,18 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\SerkanBilselGorev7\SerkanBilselGorev7
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/SerkanBilselGorev7/SerkanBilselGorev7/Areas/Admin/Views/Default/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/SerkanBilselGorev7/SerkanBilselGorev7/Areas/Views/Shared/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcU2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/SerkanBilselGorev7/SerkanBilselGorev7/Areas/Views/Shared/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/SerkanBilselGorev7/SerkanBilselGorev7/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

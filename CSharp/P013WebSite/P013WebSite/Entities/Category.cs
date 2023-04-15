@@ -14,6 +14,7 @@ namespace P013WebSite.Entities
 
         [Display(Name = "Eklenme Tarihi")]
         public DateTime CreateDate { get; set; } = DateTime.Now; // Sonradan 1 class'a bu şekilde property eklersek yeni bir migration eklememiz gerekir. Yoksa proje çalışırken hata alırız.
+        //--migration SerkanBilselGorev7
 
     }
 }

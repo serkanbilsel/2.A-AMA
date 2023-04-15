@@ -1,12 +1,17 @@
-﻿namespace SerkanBilselGorev7.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SerkanBilselGorev7.Models
 
 {
     public class Categories
     {
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
+        public int Id { get; set; }
+        [Display(Name = "Adı"), StringLength(50)]
+        public string Name { get; set; }
+        [Display(Name = "Kategori Açıklaması"),]
+        public string? Description { get; set; }
 
-        public string CategoryDesciprtion { get; set; }
-
+        [Display(Name = "Eklenme Tarihi")]
+        public DateTime CreateDate { get; set; } = DateTime.Now;
     }
 }      

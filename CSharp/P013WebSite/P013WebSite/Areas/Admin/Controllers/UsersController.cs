@@ -39,7 +39,7 @@ namespace P013WebSite.Areas.Admin.Controllers
         // POST: UsersController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> CreateAsync(User collection, IFormFile? Form)
+        public async Task<ActionResult> CreateAsync(User collection)
         {
             try
             {
