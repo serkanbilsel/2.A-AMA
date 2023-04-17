@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = P013AspNetMVC
+build_property.RootNamespace = P013AspNetMVC
+build_property.ProjectDir = C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013AspNetMVC\P013AspNetMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Areas/Admin/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Areas/Admin/Views/Shared/_AdminHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Areas/Admin/Views/Shared/_sidebarMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9zaWRlYmFyTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC01RazorSyntax/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDFSYXpvclN5bnRheFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC02HtmlAndTagHelpers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDJIdG1sQW5kVGFnSGVscGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC03DataTransfer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDNEYXRhVHJhbnNmZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC04ModelBinding/AdresDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRNb2RlbEJpbmRpbmdcQWRyZXNEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC04ModelBinding/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRNb2RlbEJpbmRpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC04ModelBinding/KullaniciDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRNb2RlbEJpbmRpbmdcS3VsbGFuaWNpRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC04ModelBinding/UyeSayfasi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRNb2RlbEJpbmRpbmdcVXllU2F5ZmFzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/UyeDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cVXllRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/UyeListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cVXllTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/UyeSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cVXllU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC05ModelValidation/YeniUye.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVNb2RlbFZhbGlkYXRpb25cWWVuaVV5ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC06Section/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZTZWN0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC07Partial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdQYXJ0aWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC07Partial/_PartialModelKullanimi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdQYXJ0aWFsXF9QYXJ0aWFsTW9kZWxLdWxsYW5pbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC07Partial/_PartialTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdQYXJ0aWFsXF9QYXJ0aWFsVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC08ViewResults/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDhWaWV3UmVzdWx0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC09FileUpload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDlGaWxlVXBsb2FkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC10Cookie/CookieOku.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTBDb29raWVcQ29va2llT2t1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC10Cookie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTBDb29raWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC11Session/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTFTZXNzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC11Session/SessionOku.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTFTZXNzaW9uXFNlc3Npb25Pa3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC12StringFormat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTJTdHJpbmdGb3JtYXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC13AppSetting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTNBcHBTZXR0aW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC14FilterUsing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTRGaWx0ZXJVc2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC15ViewComponentUsing/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTVWaWV3Q29tcG9uZW50VXNpbmdcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC15ViewComponentUsing/Kategoriler/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTVWaWV3Q29tcG9uZW50VXNpbmdcS2F0ZWdvcmlsZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/MVC15ViewComponentUsing/Markalar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTVWaWV3Q29tcG9uZW50VXNpbmdcTWFya2FsYXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/_KategorilerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LYXRlZ29yaWxlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013AspNetMVC/P013AspNetMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wcstb61zic
