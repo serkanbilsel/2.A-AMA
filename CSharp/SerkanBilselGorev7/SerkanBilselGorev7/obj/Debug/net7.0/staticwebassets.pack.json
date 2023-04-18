@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\SerkanBilselGorev7.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\Sb.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sb.jpg"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner.jpg",
       "PackagePath": "staticwebassets\\Images\\banner.jpg"
     },

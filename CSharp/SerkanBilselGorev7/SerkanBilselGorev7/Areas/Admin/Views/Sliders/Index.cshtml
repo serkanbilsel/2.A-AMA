@@ -1,0 +1,36 @@
+﻿@model IEnumerable<SerkanBilselGorev7.Models.Slider>
+
+@{
+    ViewData["Title"] = "Slider Resimleri";
+}
+
+<h1>Slider Resimleri</h1>
+
+<p>
+    <a asp-action="Create">Yeni Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+
+                    <img src="/Images/@item.Image" alt="" height="80" />
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
