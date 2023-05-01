@@ -10,14 +10,17 @@
     <link href="c:\users\serka\desktop\ders dosyalari\2.aşama\csharp\serkanbilselgorev7\serkanbilselgorev7\serkanbilselgorev7.css" rel="stylesheet" />
 </head>
 <body>
+
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0  shadow">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-2 fs-6" asp-action="">Serkan Bilsel</a>
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-2 fs-6" asp-area="Home" asp-controller="Home" asp-action="Index">Serkan Bilsel - Siteye Dön</a>
+
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
+
+        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Ara" aria-label="Search">
         <div class="navbar-nav">
-          
+            <a class="nav-link px-3" asp-area="Admin" asp-controller="Login" asp-action="Logout">Çıkış Yap</a>
         </div>
     </header>
     <div class="container-fluid">
@@ -30,6 +33,7 @@
                             Yönetim Paneli
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Brands" asp-action="Index">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file align-text-bottom" aria-hidden="true"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
@@ -90,4 +94,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-</html>
+

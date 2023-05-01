@@ -23,8 +23,7 @@
         {
             <tr>
                 <td>
-
-                    <img src="/Images/@item.Image" alt="" height="80" />
+                    <img src="/Images/@Html.DisplayFor(modelItem => item.Image)" alt="" height="80" />
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |

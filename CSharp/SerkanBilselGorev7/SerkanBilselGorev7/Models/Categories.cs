@@ -18,5 +18,7 @@ namespace SerkanBilselGorev7.Models
         [Display(Name = "Eklenme Tarihi"), ScaffoldColumn(false)]
         public DateTime? CreateDate { get; set; } = DateTime.Now;
 
+        public virtual List<Products>? Products { get; set; }
+
     }
 }      

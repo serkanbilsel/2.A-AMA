@@ -143,6 +143,7 @@ namespace SerkanBilselGorev7.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
@@ -164,6 +165,7 @@ namespace SerkanBilselGorev7.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Password")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
@@ -175,7 +177,7 @@ namespace SerkanBilselGorev7.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2023, 4, 17, 23, 1, 53, 884, DateTimeKind.Local).AddTicks(4942),
+                            CreateDate = new DateTime(2023, 4, 28, 23, 16, 35, 802, DateTimeKind.Local).AddTicks(1848),
                             Email = "Serkanbilsel@gmail.com",
                             IsActive = true,
                             IsAdmin = true,

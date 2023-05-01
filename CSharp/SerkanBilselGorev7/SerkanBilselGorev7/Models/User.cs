@@ -11,9 +11,9 @@ namespace SerkanBilselGorev7.Models
         [Display(Name = "SoyAd"), StringLength(50)]
         public string? LastName { get; set; }
         [Display(Name = "Mail"), StringLength(50)]
-        public string? Email { get; set; }
+        public string Email { get; set; }
         [Display(Name = "Şifre"), StringLength(50)]
-        public string? Password { get; set; }
+        public string Password { get; set; }
         [Display(Name = "Durum"), StringLength(50)]
 
         public bool IsActive { get; set; }

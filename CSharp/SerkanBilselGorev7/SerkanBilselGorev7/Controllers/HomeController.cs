@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using SerkanBilselGorev7.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SerkanBilselGorev7.Models;
 using System.Diagnostics;
 
@@ -6,16 +8,21 @@ namespace SerkanBilselGorev7.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly DatabaseContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(DatabaseContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var model = new HomePageViewModel()
+            {
+                Sliders = await _context.Sliders.ToListAsync(),
+                Products = await _context.Products.ToListAsync(),
+            };
+            return View(model);
         }
 
         public IActionResult Admin()

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SerkanBilselGorev7.Data;
@@ -7,7 +8,7 @@ using SerkanBilselGorev7.Tools;
 
 namespace SerkanBilselGorev7.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize]
     public class SlidersController : Controller
     {
         private readonly DatabaseContext _dbContext;
@@ -38,10 +39,11 @@ namespace SerkanBilselGorev7.Areas.Admin.Controllers
         // POST: UsersController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(Slider collection)
+        public async Task<ActionResult> Create(Slider collection, IFormFile? Image)
         {
             try
             {
+                collection.Image = await FileHelper.FileLoaderAsync(Image);
                 await _dbContext.Sliders.AddAsync(collection);
                 await _dbContext.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

@@ -1,0 +1,4 @@
+﻿Projeyi Bitirdikten sonra yayınlamak için
+* Projenin veritabanı ayarlarını satın aldığımız hosting üzerindeki sunucu veritabanı ayarlarıyla databasecontext üzerinden değiştiriyoruz.
+* Projeye sağ tıklayıp açılan menüden publish seçenecğine tıklıyoruz.
+*Açılan pencereden folder seçeğini seçecerek çıktıyı pc mize alıyoruz.

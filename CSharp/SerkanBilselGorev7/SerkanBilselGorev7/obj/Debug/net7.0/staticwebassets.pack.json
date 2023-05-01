@@ -13,12 +13,28 @@
       "PackagePath": "staticwebassets\\Images\\Sb.jpg"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\asp-net-mvc-area-nedir.jpg",
+      "PackagePath": "staticwebassets\\Images\\asp-net-mvc-area-nedir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\asus-laptop.jpg",
+      "PackagePath": "staticwebassets\\Images\\asus-laptop.jpg"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner.jpg",
       "PackagePath": "staticwebassets\\Images\\banner.jpg"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner1.png",
+      "PackagePath": "staticwebassets\\Images\\banner1.png"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner2.jpg",
       "PackagePath": "staticwebassets\\Images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner2.png",
+      "PackagePath": "staticwebassets\\Images\\banner2.png"
     },
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner3.jpg",
@@ -27,6 +43,22 @@
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner4.jpg",
       "PackagePath": "staticwebassets\\Images\\banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\banner5.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\klavye.jpg",
+      "PackagePath": "staticwebassets\\Images\\klavye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\mouse.jpg",
+      "PackagePath": "staticwebassets\\Images\\mouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\Images\\tv.png",
+      "PackagePath": "staticwebassets\\Images\\tv.png"
     },
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\SerkanBilselGorev7\\SerkanBilselGorev7\\wwwroot\\css\\carousel.css",
