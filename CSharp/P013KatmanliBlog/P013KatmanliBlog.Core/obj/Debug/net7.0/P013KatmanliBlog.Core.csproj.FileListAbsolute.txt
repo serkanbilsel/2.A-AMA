@@ -1,0 +1,12 @@
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\bin\Debug\net7.0\P013KatmanliBlog.Core.deps.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\bin\Debug\net7.0\P013KatmanliBlog.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\bin\Debug\net7.0\P013KatmanliBlog.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.csproj.AssemblyReference.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.AssemblyInfoInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.AssemblyInfo.cs
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\refint\P013KatmanliBlog.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\P013KatmanliBlog.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Core\obj\Debug\net7.0\ref\P013KatmanliBlog.Core.dll

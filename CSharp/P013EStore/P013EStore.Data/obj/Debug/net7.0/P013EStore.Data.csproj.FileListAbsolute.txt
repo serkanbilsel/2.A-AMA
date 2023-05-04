@@ -1,0 +1,17 @@
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\bin\Debug\net7.0\P013EStore.Data.deps.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\bin\Debug\net7.0\P013EStore.Data.runtimeconfig.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\bin\Debug\net7.0\P013EStore.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\bin\Debug\net7.0\P013EStore.Data.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\bin\Debug\net7.0\P013EStore.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\bin\Debug\net7.0\P013EStore.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.csproj.AssemblyReference.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.AssemblyInfoInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.AssemblyInfo.cs
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.csproj.CoreCompileInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.csproj.CopyComplete
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\refint\P013EStore.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\P013EStore.Data.genruntimeconfig.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Data\obj\Debug\net7.0\ref\P013EStore.Data.dll

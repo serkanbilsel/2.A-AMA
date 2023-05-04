@@ -1,0 +1,17 @@
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.csproj.AssemblyReference.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.AssemblyInfoInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.AssemblyInfo.cs
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.csproj.CoreCompileInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\bin\Debug\net7.0\P013KatmanliBlog.Data.deps.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\bin\Debug\net7.0\P013KatmanliBlog.Data.runtimeconfig.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\bin\Debug\net7.0\P013KatmanliBlog.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\bin\Debug\net7.0\P013KatmanliBlog.Data.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\bin\Debug\net7.0\P013KatmanliBlog.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\bin\Debug\net7.0\P013KatmanliBlog.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.csproj.CopyComplete
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\refint\P013KatmanliBlog.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\P013KatmanliBlog.Data.genruntimeconfig.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013KatmanliBlog\P013KatmanliBlog.Data\obj\Debug\net7.0\ref\P013KatmanliBlog.Data.dll

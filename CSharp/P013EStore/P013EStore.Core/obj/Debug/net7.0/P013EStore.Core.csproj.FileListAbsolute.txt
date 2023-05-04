@@ -1,0 +1,12 @@
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\bin\Debug\net7.0\P013EStore.Core.deps.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\bin\Debug\net7.0\P013EStore.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\bin\Debug\net7.0\P013EStore.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.csproj.AssemblyReference.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.AssemblyInfoInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.AssemblyInfo.cs
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\refint\P013EStore.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\P013EStore.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Core\obj\Debug\net7.0\ref\P013EStore.Core.dll

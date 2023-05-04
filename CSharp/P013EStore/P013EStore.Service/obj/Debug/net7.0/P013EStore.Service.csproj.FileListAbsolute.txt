@@ -1,0 +1,17 @@
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Service.deps.json
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Service.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Service.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Core.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Data.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Data.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\bin\Debug\net7.0\P013EStore.Core.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.csproj.AssemblyReference.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.AssemblyInfoInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.AssemblyInfo.cs
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.csproj.CoreCompileInputs.cache
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.csproj.CopyComplete
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\refint\P013EStore.Service.dll
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\P013EStore.Service.pdb
+C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.Service\obj\Debug\net7.0\ref\P013EStore.Service.dll
