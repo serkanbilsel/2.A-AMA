@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JT56dITbaxgVVsbU+jcdSi7ECavpFZd7VQGSkpihN40=",
+  "Hash": "eW/NDIMHuvrpL9hhPg8IdoGnyYGVx0qBu/UmTNORKr4=",
   "Source": "P013EStore.MVCUI",
   "BasePath": "_content/P013EStore.MVCUI",
   "Mode": "Default",
@@ -408,12 +408,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img2\\Imgbanner.jpg",
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Img2Salatalik.jpg",
       "SourceId": "P013EStore.MVCUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
       "BasePath": "_content/P013EStore.MVCUI",
-      "RelativePath": "Img2/Imgbanner.jpg",
+      "RelativePath": "Img/Img2Salatalik.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img2\\Imgbanner.jpg"
+      "OriginalItemSpec": "wwwroot\\Img\\Img2Salatalik.jpg"
     },
     {
-      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img2\\ImgTeslaSPace.png",
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Imgbanner.jpg",
       "SourceId": "P013EStore.MVCUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
       "BasePath": "_content/P013EStore.MVCUI",
-      "RelativePath": "Img2/ImgTeslaSPace.png",
+      "RelativePath": "Img/Imgbanner.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img2\\ImgTeslaSPace.png"
+      "OriginalItemSpec": "wwwroot\\Img\\Imgbanner.jpg"
     },
     {
-      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img2Salatalik.jpg",
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\ImgTeslaSPace.png",
       "SourceId": "P013EStore.MVCUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
       "BasePath": "_content/P013EStore.MVCUI",
-      "RelativePath": "Img2Salatalik.jpg",
+      "RelativePath": "Img/ImgTeslaSPace.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img2Salatalik.jpg"
+      "OriginalItemSpec": "wwwroot\\Img\\ImgTeslaSPace.png"
     },
     {
-      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Imgbanner.jpg",
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Nature.jpg",
       "SourceId": "P013EStore.MVCUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
       "BasePath": "_content/P013EStore.MVCUI",
-      "RelativePath": "Imgbanner.jpg",
+      "RelativePath": "Img/Nature.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imgbanner.jpg"
+      "OriginalItemSpec": "wwwroot\\Img\\Nature.jpg"
     },
     {
-      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\ImgTeslaSPace.png",
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Salatalik.jpg",
       "SourceId": "P013EStore.MVCUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
       "BasePath": "_content/P013EStore.MVCUI",
-      "RelativePath": "ImgTeslaSPace.png",
+      "RelativePath": "Img/Salatalik.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,7 +490,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImgTeslaSPace.png"
+      "OriginalItemSpec": "wwwroot\\Img\\Salatalik.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\TeslaSPace.png",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/TeslaSPace.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\TeslaSPace.png"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\js\\site.js",
