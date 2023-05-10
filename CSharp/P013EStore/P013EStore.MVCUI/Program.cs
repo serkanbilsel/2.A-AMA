@@ -8,7 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>();
 
-builder.Services.AddTransient(typeof(IService<>),typeof(Service<>)); // kendi yazdýðýmýz db iþlemlerini yapan servisi .net core da bu þekilde mvc projesine servis olarak tanýttýk
+builder.Services.AddTransient(typeof(IService<>),typeof(Service<>));
+builder.Services.AddTransient<IProductService, ProductService>();     
+    // kendi yazdýðýmýz db iþlemlerini yapan servisi .net core da bu þekilde mvc projesine servis olarak tanýttýk
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
