@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eW/NDIMHuvrpL9hhPg8IdoGnyYGVx0qBu/UmTNORKr4=",
+  "Hash": "OP/XgPlbGdd7vUoylK0G2+HmCTabQcsXX4TsYUSFpms=",
   "Source": "P013EStore.MVCUI",
   "BasePath": "_content/P013EStore.MVCUI",
   "Mode": "Default",
@@ -491,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\Salatalik.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Sb.jpg",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/Sb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Sb.jpg"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\TeslaSPace.png",

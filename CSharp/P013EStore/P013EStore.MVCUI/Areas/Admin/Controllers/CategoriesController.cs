@@ -7,7 +7,7 @@ using P013EStore.Service.Abstract;
 
 namespace P013EStore.MVCUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize]
     public class CategoriesController : Controller
     {
         private readonly IService<Category> _service;

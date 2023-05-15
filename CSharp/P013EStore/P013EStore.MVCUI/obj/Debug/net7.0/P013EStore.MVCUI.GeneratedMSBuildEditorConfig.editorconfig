@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\serka\Desktop\DERS DOSYALARI\2.AŞAMA\CSharp\P013EStore\P013EStore.MVCUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/AppUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/AppUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/AppUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/AppUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Brands/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +62,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Main/Index.cshtml]
@@ -82,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Slider/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Slider/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Slider/Edit.cshtml]

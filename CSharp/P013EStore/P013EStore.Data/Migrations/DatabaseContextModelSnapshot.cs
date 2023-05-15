@@ -47,7 +47,7 @@ namespace P013EStore.Data.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -60,7 +60,7 @@ namespace P013EStore.Data.Migrations
 
                     b.Property<string>("Surname")
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<Guid?>("UserGuid")
                         .HasColumnType("uniqueidentifier");
@@ -77,13 +77,13 @@ namespace P013EStore.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2023, 5, 2, 22, 45, 12, 800, DateTimeKind.Local).AddTicks(7902),
+                            CreateDate = new DateTime(2023, 5, 15, 21, 56, 32, 935, DateTimeKind.Local).AddTicks(8849),
                             Email = "info@P013EStore.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Admin",
                             Password = "123",
-                            UserGuid = new Guid("fa88d6c5-97e4-425c-b537-24fa4352f7f5"),
+                            UserGuid = new Guid("3d5b4c85-8514-49fd-b7bf-1833893b284f"),
                             UserName = "Admin"
                         });
                 });

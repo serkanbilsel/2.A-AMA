@@ -33,9 +33,9 @@ namespace P013EStore.Data
         {
             //FLUENTAPI VERTABANINDAKİ KOLONLARIN AYARLANMASINI SAĞLAYAN YAPIDIR
             //FLuentAPI ile veritabanı tablolarımız oluşurken veri tiplerini db kurallarını burada tanımlayabiliriz.
-            modelBuilder.Entity<AppUser>().Property(a => a.Name).IsRequired().HasColumnType("varchar(50)").HasMaxLength(50);
+            modelBuilder.Entity<AppUser>().Property(a => a.Name).IsRequired().HasMaxLength(50);
             //FluentAPİ ile AppUser Classının Name Propertysi için oluşacak veritabanı kolonu ayarlarını bu şekilde belirledik
-            modelBuilder.Entity<AppUser>().Property(a => a.Surname).HasColumnType("varchar(50)").HasMaxLength(50);
+            modelBuilder.Entity<AppUser>().Property(a => a.Surname).HasMaxLength(50);
             modelBuilder.Entity<AppUser>().Property(a => a.UserName).HasColumnType("varchar(50)").HasMaxLength(50);
             modelBuilder.Entity<AppUser>().Property(a => a.Password).IsRequired().HasColumnType("varchar(100)").HasMaxLength(100);
             modelBuilder.Entity<AppUser>().Property(a => a.Email).IsRequired().HasMaxLength(50);
