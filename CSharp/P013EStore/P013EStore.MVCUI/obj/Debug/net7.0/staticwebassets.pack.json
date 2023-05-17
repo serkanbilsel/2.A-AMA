@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Img\\Imgbanner.jpg"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Manzara.jpg",
+      "PackagePath": "staticwebassets\\Img\\Manzara.jpg"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Nature.jpg",
       "PackagePath": "staticwebassets\\Img\\Nature.jpg"
     },
@@ -31,6 +35,30 @@
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\TeslaSPace.png",
       "PackagePath": "staticwebassets\\Img\\TeslaSPace.png"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\banner.jpg",
+      "PackagePath": "staticwebassets\\Img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Img\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\manzarasb.jpg",
+      "PackagePath": "staticwebassets\\Img\\manzarasb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\monster.jpg",
+      "PackagePath": "staticwebassets\\Img\\monster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\resim-18.jpg",
+      "PackagePath": "staticwebassets\\Img\\resim-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\vita.jpg",
+      "PackagePath": "staticwebassets\\Img\\vita.jpg"
     },
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\admin\\401.html",
