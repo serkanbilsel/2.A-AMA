@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\Img\\banner2.jpg"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\logo.png",
+      "PackagePath": "staticwebassets\\Img\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\manzarasb.jpg",
       "PackagePath": "staticwebassets\\Img\\manzarasb.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8yYSJ1Q2KStZnXPK2+aLSqAnOKKAzXQy+fjKvKa08Uw=",
+  "Hash": "TZ9UciwyFzHI9TB4uwtoJfbmAlGtE7ZKs4qQOrko5hg=",
   "Source": "P013EStore.MVCUI",
   "BasePath": "_content/P013EStore.MVCUI",
   "Mode": "Default",
@@ -491,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\ImgTeslaSPace.png"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\logo.png",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Manzara.jpg",

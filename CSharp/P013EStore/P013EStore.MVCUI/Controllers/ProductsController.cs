@@ -19,6 +19,12 @@ namespace P013EStore.MVCUI.Controllers
             var model = await _serviceProduct.GetAllAsync(p=>p.IsActive);     
             return View(model);
         }
+        [Route("tum-urunlerimiz")] // Adres çubuğundan tüm ürünlerimiz yyazınca bu action çalışsın
+        public async Task<IActionResult> Search(string q) // adres çubuğundaki aramayı query string ile yakalıyoruz
+        {
+            var model = await _serviceProduct.GetProductsByIncludeAsync(p => p.IsActive && p.Name.Contains(q) || p.Description.Contains(q) || p.Brand.Name.Contains(q) || p.Category.Name.Contains(q));
+            return View(model);
+        }
 
         public async Task<IActionResult> DetailAsync(int id)
         {
