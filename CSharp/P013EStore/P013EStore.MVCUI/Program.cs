@@ -7,11 +7,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSession(); // uygulamada session kullanabilmek için
+
 builder.Services.AddDbContext<DatabaseContext>();
 
 builder.Services.AddTransient(typeof(IService<>),typeof(Service<>));
 builder.Services.AddTransient<IProductService, ProductService>();
-// kendi yazdýðýmýz db iþlemlerini yapan servisi .net core da bu þekilde mvc projesine servis olarak tanýttýk
+// kendi yazdýðýmýz db iþlemlerini yapan servisi .net core da bu þekilde mvc projesine servis olarak tanýttýk 
+//AddTransient yöntemiyle servis eklediðimizde sistem uygulamayý çalýþtýrdýðýnda hazýrda ayný nesne varsa o kullanýlýr yoksa yeni bir nesne oluþtturulup kullanýma sunulur.
+
+//builder.Services.AddSingleton<IProductService, ProductService>(); // Addsingleton yöntemiyle servis eklediðimizde sistem uygulamayý çalýþtýrýðýnda bu nesneden 1 tane üretir ve her istekte ayný nesne gönderilir.Performans olarak diðerlerinden iyi yöntemdir.
+
+//builder.Services.AddScoped<IProductService, ProductService>();// AddScoped yöntemiyle servis eklediðimizde sistem uygulamayý çalýþtýrdýðýnda bu nesneye gelen her  istek için ayrý ayrý nesneler üretip bunu kullanýma sunar. içerðin çok dinamik bir þkeilde sürekli deðiþtiði projelerde kullanýlabilir döviz altýn fiyatý gibi anlýk deðþiimlerin olduðu projelerde mesela.
+
 
 //UYGULAMA ADMÝN PANELÝ ÝÇÝN OTURUM AÇMA AYARLARI
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>// oturum iþlemleri için
@@ -40,6 +49,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession(); // session için 
 
 app.UseAuthentication(); // DÝkkat! önce UseAuthentication satýrý gelmeli sonra Use Authorization
 app.UseAuthorization();
