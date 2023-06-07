@@ -5,7 +5,7 @@ using System.Net.Http.Json;
 
 namespace P013EStore.WebAPIUsing.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class AppUsersController : Controller
     {
         private readonly HttpClient _httpClient; // _httpClient nesnesini kullanarak apilere istek gönderebiliriz.

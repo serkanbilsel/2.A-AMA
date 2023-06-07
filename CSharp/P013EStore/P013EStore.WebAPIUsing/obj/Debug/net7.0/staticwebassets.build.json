@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7CWQB2a4xiTKXHsDyzLHi9XJouV6GwFuzKJoRBEusAE=",
+  "Hash": "bPGQLWJm9Ozp09yuri7NW0htKKyn+vQAE2IDSDEt1bg=",
   "Source": "P013EStore.WebAPIUsing",
   "BasePath": "_content/P013EStore.WebAPIUsing",
   "Mode": "Default",
@@ -406,6 +406,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.WebAPIUsing\\wwwroot\\Img\\1.jpg",
+      "SourceId": "P013EStore.WebAPIUsing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.WebAPIUsing\\wwwroot\\",
+      "BasePath": "_content/P013EStore.WebAPIUsing",
+      "RelativePath": "Img/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.WebAPIUsing\\wwwroot\\Img\\360_F_330306806_PX4plmlzcR82F4djjQ8utuON8Yqj0xiF.jpg",
+      "SourceId": "P013EStore.WebAPIUsing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.WebAPIUsing\\wwwroot\\",
+      "BasePath": "_content/P013EStore.WebAPIUsing",
+      "RelativePath": "Img/360_F_330306806_PX4plmlzcR82F4djjQ8utuON8Yqj0xiF.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\360_F_330306806_PX4plmlzcR82F4djjQ8utuON8Yqj0xiF.jpg"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.WebAPIUsing\\wwwroot\\Img\\banner.jpg",
