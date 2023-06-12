@@ -24,11 +24,18 @@ namespace P013EStore.WebAPI.Controllers
             return await _service.GetProductsByIncludeAsync();
         }
 
-        // GET api/<ProductsController>/5
+        // GET api/<ProductsController>/
         [HttpGet("{id}")]
         public async Task<Product> GetAsync(int id)
         {
             return await _service.GetProductByIncludeAsync(id);
+        }
+
+        // GET api/<ProductsController>/GetSearch
+        [HttpGet("GetSearch/{q}")]
+        public async Task<IEnumerable<Product>> GetSearchAsync(string q)
+        {
+            return await _service.GetProductsByIncludeAsync();
         }
 
         // POST api/<ProductsController>

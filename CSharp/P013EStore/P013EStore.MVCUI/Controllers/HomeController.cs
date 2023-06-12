@@ -6,6 +6,8 @@ using P013EStore.Service.Abstract;
 using System.Diagnostics;
 
 namespace P013EStore.MVCUI.Controllers
+    // var model = await _post.GetAllAsync();
+            //return View(model);
 {
     public class HomeController : Controller
     {
