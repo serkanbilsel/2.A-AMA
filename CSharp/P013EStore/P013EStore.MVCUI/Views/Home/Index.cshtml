@@ -10,23 +10,78 @@
     <script>
         $(".carousel-item:first").addClass("active")
     </script>
-} 
+}
 
 <div class="text-center">
     <h1 class="display-4">Popüler Ürünlerimiz</h1>
-  
+
 </div>
 
 
+
 <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                   
-                    <partial name="_ProductPartial" model="Model.Products"/>
-                   
-                </div>
-            </div>
-        </section>
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+            <partial name="_ProductPartial" model="Model.Products" />
+
+        </div>
+    </div>
+</section>
 
 
 
+<div class="text-center">
+    <h2 class="display-4">En Popüler Markalar</h2>
+
+</div>
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+            @foreach (var item in Model.Brands)
+            {
+                @if (!string.IsNullOrWhiteSpace(item.Logo))
+                {
+                    <div class="col">
+                        <a href="/Brands/Index/@item.Id">
+                        <img src="/Img/@item.Logo" alt="@item.Name" class="img-thumbnail" />
+                        </a>
+                    </div>
+                }
+              
+            }
+
+        </div>
+    </div>
+</section>
+
+
+<div class="text-center nav-link text-dark">
+    <a asp-action="Index" asp-controller="News">
+    <h2>Bizden Haberler</h2>
+    </a>
+</div>
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+            @foreach (var item in Model.News)
+            {
+                @if (!string.IsNullOrWhiteSpace(item.Image))
+                {
+                    <div class="col">
+                        <a class="nav-link text-dark" href="/News/Detail/@item.Id">
+                            <img src="/Img/@item.Image" alt="@item.Title" class="img-thumbnail" />
+                            <h3>@item.Title</h3>
+                        </a>
+                    </div>
+                }
+
+            }
+
+        </div>
+    </div>
+</section>

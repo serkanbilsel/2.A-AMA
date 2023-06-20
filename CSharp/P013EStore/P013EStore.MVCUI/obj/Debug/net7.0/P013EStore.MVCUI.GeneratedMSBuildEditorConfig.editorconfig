@@ -84,8 +84,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Logs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Products/Create.cshtml]
@@ -102,6 +122,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Settings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Settings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Settings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Settings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Areas/Admin/Views/Shared/Error.cshtml]
@@ -156,6 +192,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/Brands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -178,6 +222,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/Home/_Slider.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/News/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/serka/Desktop/DERS DOSYALARI/2.AŞAMA/CSharp/P013EStore/P013EStore.MVCUI/Views/Products/Detail.cshtml]

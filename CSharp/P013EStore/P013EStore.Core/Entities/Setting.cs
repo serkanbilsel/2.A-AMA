@@ -16,18 +16,25 @@ namespace P013EStore.Core.Entities
         [Display(Name = "Site Açıklama")]
         public string? Description { get; set; }
 
-        public string? Email{ get; set; }
+        public string? Email { get; set; }
         [Display(Name = "Telefon")]
-        public string? Phone{ get; set; }
+        public string? Phone { get; set; }
         [Display(Name = "Mail Sunucusu")]
-        public string? MailServer{ get; set; }
+        public string? MailServer { get; set; }
         [Display(Name = "Port")]
         public int Port { get; set; }
         [Display(Name = "Mail Kullanıcı Adı")]
         public String UserName { get; set; }
         [Display(Name = "Mail Şifresi")]
         public String Password { get; set; }
+
         public String Favicon { get; set; }
-        public String Logo { get; set; } 
+        [Display(Name = "Site Logo")]
+        public String Logo { get; set; }
+        [Display(Name = "Firma Adresi"), DataType(DataType.MultilineText)]
+        public String Address { get; set; }  
+        [Display(Name = "Firma Harita Kodu"), DataType(DataType.MultilineText)]
+        public String MapCode { get; set; } 
+
     }
 }

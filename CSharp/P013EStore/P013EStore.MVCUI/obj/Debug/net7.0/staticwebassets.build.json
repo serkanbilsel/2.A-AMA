@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TZ9UciwyFzHI9TB4uwtoJfbmAlGtE7ZKs4qQOrko5hg=",
+  "Hash": "TG3jyn+OPL+nBa/z/EVk0XMeWKR20r/uPfBHG9i7UBU=",
   "Source": "P013EStore.MVCUI",
   "BasePath": "_content/P013EStore.MVCUI",
   "Mode": "Default",
@@ -408,6 +408,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\1.jpg",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\banner.jpg",
       "SourceId": "P013EStore.MVCUI",
       "SourceType": "Discovered",
@@ -440,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\BOYSTALK.png",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/BOYSTALK.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\BOYSTALK.png"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Img2Salatalik.jpg",
@@ -661,6 +695,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\vita.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\web-api.png",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/web-api.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\web-api.png"
+    },
+    {
+      "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\WhatsApp Görsel 2023-06-12 saat 20.06.10.jpg",
+      "SourceId": "P013EStore.MVCUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\",
+      "BasePath": "_content/P013EStore.MVCUI",
+      "RelativePath": "Img/WhatsApp Görsel 2023-06-12 saat 20.06.10.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\WhatsApp Görsel 2023-06-12 saat 20.06.10.jpg"
     },
     {
       "Identity": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\js\\site.js",

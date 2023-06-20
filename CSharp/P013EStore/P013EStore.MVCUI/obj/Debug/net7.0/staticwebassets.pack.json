@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\P013EStore.MVCUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\1.jpg",
+      "PackagePath": "staticwebassets\\Img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\BOYSTALK.png",
+      "PackagePath": "staticwebassets\\Img\\BOYSTALK.png"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\Img2Salatalik.jpg",
       "PackagePath": "staticwebassets\\Img\\Img2Salatalik.jpg"
     },
@@ -37,6 +45,10 @@
       "PackagePath": "staticwebassets\\Img\\TeslaSPace.png"
     },
     {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\WhatsApp Görsel 2023-06-12 saat 20.06.10.jpg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Görsel 2023-06-12 saat 20.06.10.jpg"
+    },
+    {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\banner.jpg",
       "PackagePath": "staticwebassets\\Img\\banner.jpg"
     },
@@ -63,6 +75,10 @@
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\vita.jpg",
       "PackagePath": "staticwebassets\\Img\\vita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\Img\\web-api.png",
+      "PackagePath": "staticwebassets\\Img\\web-api.png"
     },
     {
       "Id": "C:\\Users\\serka\\Desktop\\DERS DOSYALARI\\2.AŞAMA\\CSharp\\P013EStore\\P013EStore.MVCUI\\wwwroot\\admin\\401.html",
